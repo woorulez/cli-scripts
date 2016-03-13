@@ -1,4 +1,5 @@
 #! /bin/cat
+# safeguard for accidental execution
 
 # create a branch pointing to current HEAD and checkout
 git checkout -b $branch

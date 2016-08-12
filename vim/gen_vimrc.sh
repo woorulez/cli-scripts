@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 if [ -f ~/.vimrc ]; then
-    echo ".vimrc exists!"
+    (>&2 echo 'You already have a .vimrc!')
     exit 1
 fi
 

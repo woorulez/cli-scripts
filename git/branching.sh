@@ -3,8 +3,9 @@
 
 # create a branch pointing to current HEAD and checkout
 git checkout -b $branch
-# create a branch from a tag and checkout
-git checkout -b $branch $tag
+# create a branch from a tag or local/remote branch and checkout
+# e.g git checkout -b develop origin/develop
+git checkout -b $branch $name
 # to skip the checkout part, use the branch command
 git branch $branch [$tag]
 

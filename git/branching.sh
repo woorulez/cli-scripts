@@ -6,6 +6,7 @@ git checkout -b $branch
 # create a branch from a tag or local/remote branch and checkout
 # e.g git checkout -b develop origin/develop
 git checkout -b $branch $name
+git checkout -t $branch
 # to skip the checkout part, use the branch command
 git branch $branch [$tag]
 

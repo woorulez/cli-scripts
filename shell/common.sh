@@ -4,5 +4,5 @@
 set -o pipefail
 set -o nounset # set -u
 
-SCRIPT_HOME="$(cd "$( dirname "${BASH_SOURCE[0]}")" > /dev/null && pwd)"
+SCRIPT_HOME="$(cd "$(dirname "${BASH_SOURCE[0]}")" > /dev/null && pwd)"
 echo "$SCRIPT_HOME"
